@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+<h1>Hello!</h1>
+
+<p>My name is Elleah Stillman. I am majoring in graphic design with a minor in interactive digital media at Drexel University in Philadelphia, Pennsylvania. Being a designer has always been at the forefront of my life. It is a creative problem-solving method that applies to any issue or industry. Design has the power to change lives and transform communities. I am eager to continue developing my voice as a creative leader.</p>
+
+<p>I bring positive energy to every team I participate in, as collaboration fuels my creativity. In the classroom and workplace, I am honing my ability to present my ideas and articulate my process and vision. This portfolio demonstrates a commitment to research, iterative methods, and visual storytelling.</p>
+
+<p>When I am not in the studio, you can find me journaling, styling a new outfit, or exploring the city.
+
+For inquiries about freelance work or collaborative projects, please reach out via email.
+elleahsdesign@gmail.com</p>
+
+<h2>Education</h2>
+<ul>
+    <li>Bachelor of Science, Graphic Design
+        <i>Drexel University (2019-2024)</i>
+        </li>
+</ul>
+
+<h2>Experience</h2>
+<ul>
+    <li>Graphic Designer,<i>Maximalist Studios (2023-2024)</i></li>
+</ul>
+
+<h2>Achievements</h2>
+<ul>
+    <li>Westphal Portfolio Scholarship</li>
+    <li>Honors Student</li>
+    <li>Dean’s List</li>
+    <li>Interactive Digital Media Minor</li>
+</ul>
+
+<h2>Are you ready to share your story? Email me!</h2>
+    
+</body>
+</html>
