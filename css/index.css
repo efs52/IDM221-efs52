@@ -1,12 +1,12 @@
 .home-featured-list {
     margin: 12px;
     display: flex;
-    flex-direction: column; /* Align items vertically */
-    gap: 22px; /* Add space between items */
+    flex-direction: column;
+    gap: 22px; 
 }
 
 .home-featured-list > * {
-    padding: 12px 0; /* Add 10px padding to tops and bottoms of each item */
+    padding: 12px 0;
 }
 
 .home-featured-list a {
@@ -17,7 +17,7 @@
 .home-featured-list img {
     max-width: 100%;
     height: auto;
-    display: block; /* Remove default inline styling for images */
+    display: block;
 }
 
 .home-featured-list h2 {
