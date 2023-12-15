@@ -1,0 +1,50 @@
+body {
+    margin: 0;
+    font-family: "neue-haas-grotesk-display", Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    background-color: aqua;
+}
+
+h1{
+    font-family: "neue-haas-grotesk-display", Helvetica, sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+p{
+    font-family: "aktiv-grotesk", Helvetica, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.nasa-images {
+    padding: 200px 0;
+}
+
+.nasa-images img {
+    display: block;
+    width: 100%; /* Make the images fill the width of their container */
+    margin: 0; /* Remove margin */
+    padding: 200px 0; /* 25px padding above and below each image */
+    box-sizing: border-box; /* Include padding in the element's total width and height */
+}
+
+
+
+
+
+
+
+
+.nasa-hero-container {
+    max-width: 100%; /* Ensure the container doesn't exceed the viewport width */
+    overflow: hidden; /* Hide any content that overflows the container */
+}
+
+.nasa-hero-container img {
+    width: 100%; /* Make the image fill the width of its container */
+    height: auto; /* Maintain the image's aspect ratio */
+    display: block; /* Remove extra space below the image */
+    margin: 0 auto; /* Center the image horizontally using margin */
+}
