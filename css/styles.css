@@ -13,6 +13,8 @@ h1{
     margin: 12px;
 }
 
+
+
 p{
     font-family: "aktiv-grotesk", Helvetica, sans-serif;
     font-weight: 400;
@@ -21,13 +23,17 @@ p{
     margin: 12px;
 }
 
+
+
 button {
-    appearance: none;
-    border: none;
-    background: none;
-    margin: 0;
-    padding: 0;
+    background-color: #2E6356;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    border: none; 
     cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
 }
 
 header {
@@ -78,4 +84,9 @@ footer {
 
 p {
     margin-top: 12px; /* Adjust the space between icons and the paragraph */
+}
+
+.copyright{
+    padding-top: 30px;
+    font-size: 14px;
 }

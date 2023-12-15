@@ -6,22 +6,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/index.css">
 </head>
 <body>
 
-    <div class="mobile-menu">
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle">&#9776; Menu</label>
-        
-        <ul class="menu-items">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Services</a></li>
-            <li><a href="#">Contact</a></li>
-        </ul>
-    </div>
+    <header>
+        <div class="logo">
+            <a href="index.html">
+                <img src="img/icons/temporary-logo.svg" alt="Temporary Logo">
+            </a>
+        </div>
+        <nav class="nav-menu">
+            <a href="work.html">Work</a>
+            <a href="contact.html">Contact</a>
+        </nav>
+    </header>
 
-<h1>Hello, my name is...</h1>
-<h1>Elleah</h1>
+    <style>
+        /* Styles for the first h1 */
+        .small-heading {
+            font-size: 22px;
+            padding-top: 50px;
+            text-align: center;
+            font-family: "aktiv-grotesk", Helvetica, sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            line-height: 22px;
+            margin-bottom: 5px;
+        }
+
+        /* Styles for the second h1 */
+        .large-heading {
+            font-size: 50px;
+            color: #2E6356;
+            text-align: center;
+            margin-top: 5px;
+            padding-bottom: 50px;
+        }
+    </style>
+
+    <h1 class="small-heading">Hello, my name is...</h1>
+    <h1 class="large-heading">Elleah ☺</h1>
 
 <h2>Featured Work</h2>
 
@@ -31,7 +56,9 @@
         <a href="aura.html" target="_blank">
             <img src="img/Thumbnail_Magazine.png" alt="Aura Magazine Thumbnail">
         </a>
-        <h2>Aura Magazine Publication Design</h2>
+        <a href="aura.html">
+            <h2>Aura Magazine Publication Design</h2>
+        </a>
         <p>Aura is a monthly magazine that discusses fashion, culture, and politics.</p>
     </div>
 
@@ -39,7 +66,9 @@
         <a href="nasa.html" target="_blank">
             <img src="img/Thumbnail_Nasa.png" alt="Nasa Website Redesign Thumbnail">
         </a>
-        <h2>Nasa Website Design</h2>
+        <a href="nasa.html">
+            <h2>Nasa Website Design</h2>
+        </a>
         <p>Redesigning the NASA website as a designer is a significant and complex task, as it involves not only updating the visual aesthetics but also ensuring usability, accessibility, and functionality. The goal is to create a website that not only looks great but also serves as an informative and accessible resource for NASA's diverse audience.</p>
     </div>
 
@@ -47,12 +76,20 @@
         <a href="wagner.html" target="_blank">
             <img src="img/Thumbnail_Wagner.png" alt="The Wagner Free Institute of Science Rebrand Thumbnail">
         </a>
-        <h2>The Wagner Free Institute of Science Rebrand</h2>
+        <a href="wagner.html">
+            <h2>The Wagner Free Institute of Science Rebrand</h2>
+        </a>
         <p>Established in 1855, The Wagner Free Institute of Science is a landmark building featuring historical museum collections that display minerals, crystals, fossils, insects, taxidermy, mounted skeletons, and more. They provide accessible educational programs, archives, museum tours, and community events for people of all ages.</p>
     </div>           
 </div>
 
-<h2>Are you ready to share your story? Email me!</h2>
+<footer>
+    <h2>Are you ready to share your story?</h2>
+
+    <button>Email me!</button>
+
+    <p class="copyright">&copy; 2023 elleahstillman.com</p>
+</footer>
     
 </body>
 </html>

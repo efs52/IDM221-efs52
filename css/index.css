@@ -1,0 +1,34 @@
+.home-featured-list {
+    margin: 12px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    gap: 22px; /* Add space between items */
+}
+
+.home-featured-list > * {
+    padding: 12px 0; /* Add 10px padding to tops and bottoms of each item */
+}
+
+.home-featured-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.home-featured-list img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove default inline styling for images */
+}
+
+.home-featured-list h2 {
+    font-size: 1.5em;
+    margin-top: 8px;
+}
+
+.home-featured-list p {
+    margin-top: 8px;
+}
+
+h2{
+    margin: 12px;
+}

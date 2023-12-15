@@ -1,0 +1,30 @@
+.work-list {
+    margin: 12px;
+    display: flex;
+    flex-direction: column; /* Align items vertically */
+    gap: 22px; /* Add space between items */
+}
+
+.work-list > * {
+    padding: 12px 0; /* Add 10px padding to tops and bottoms of each item */
+}
+
+.work-list a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.work-list img {
+    max-width: 100%;
+    height: auto;
+    display: block; /* Remove default inline styling for images */
+}
+
+.work-list h2 {
+    font-size: 1.5em;
+    margin-top: 8px;
+}
+
+.work-list p {
+    margin-top: 8px;
+}
